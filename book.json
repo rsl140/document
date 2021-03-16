@@ -2,40 +2,35 @@
   "title": "xiaosi",
   "author": "xiaosi",
   "language": "zh-hans",
-  "structure": {
-      "readme": "README.md"
-  },
+  "ignores": ["_book", "styles", "assets", "node_modules", "source"],
+  "sortedBy": "-",
   "plugins": [
       "-sharing",
       "splitter",
-      "expandable-chapters-small",
-      "anchors",
+      "expandable-chapters",
+      "todo",
       "github",
       "github-buttons",
       "sharing-plus",
-      "anchor-navigation-ex",
-      "favicon",
       "prism",
       "prism-themes",
+      "intopic-toc",
       "-highlight",
       "chart",
       "tbfed-pagefooter",
-      "simple-page-toc",
       "anchors",
       "terminal",
       "copy-code-button",
-      "theme-comscore"
+      "theme-comscore",
+      "hide-element",
+      "summary"
   ],
   "pluginsConfig": {
       "github": {
           "url": "https://github.com/rsl140"
       },
-      "simple-page-toc": {
-        "maxDepth": 3,
-        "skipFirstH1": true
-      },
-      "theme-default": {
-        "showLevel": true
+      "hide-element": {
+        "elements": [".gitbook-link"]
       },
       "terminal": {
         "copyButtons": true,
@@ -45,23 +40,26 @@
       "prism": {
         "css": [
             "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
-          ]
+          ],
+          "lang": {
+            "shell": "bash"
+          }
       },
       "chart": {
         "type": "c3"
       },
       "tbfed-pagefooter": {
-        "copyright":"Copyright &copy xiaosi 2021",
+        "copyright":"Copyright &copy xiaosi (2021 - present)",
         "modify_label": "该文件修订时间：",
         "modify_format": "YYYY-MM-DD HH:mm:ss"
       },
       "github-buttons": {
           "buttons": [{
               "user": "rsl140",
-              "repo": "work_notes_demo",
+              "repo": "document",
               "type": "star",
               "size": "small",
-              "count": true
+              "count": false
               }
           ]
       },
@@ -87,18 +85,6 @@
               "google", "facebook", "weibo", "twitter",
               "qq", "qzone", "linkedin", "pocket"
           ]
-      },
-      "anchor-navigation-ex": {
-          "showLevel": false
-      },
-      "favicon":{
-          "shortcut": "./source/images/favicon.ico",
-          "bookmark": "./source/images/favicon.ico",
-          "appleTouch": "./source/images/favicon.ico",
-          "appleTouchMore": {
-              "120x120": "./source/images/favicon.ico",
-              "180x180": "./source/images/favicon.ico"
-          }
       }
   }
 }
