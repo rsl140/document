@@ -1,42 +1,18 @@
 {
-  "name": "document",
+  "name": "gitbook",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "gitbook-plugin-anchor-navigation-ex": "^1.0.14",
-    "gitbook-plugin-anchors": "^0.7.1",
-    "gitbook-plugin-chart": "^0.2.2",
-    "gitbook-plugin-copy-code-button": "^0.0.2",
-    "gitbook-plugin-expandable-chapters-small": "^0.1.7",
-    "gitbook-plugin-favicon": "^0.0.2",
-    "gitbook-plugin-github": "^2.0.0",
-    "gitbook-plugin-github-buttons": "^3.0.0",
-    "gitbook-plugin-prism": "^2.4.0",
-    "gitbook-plugin-prism-themes": "^0.0.2",
-    "gitbook-plugin-sharing-plus": "^0.0.2",
-    "gitbook-plugin-simple-page-toc": "^0.1.2",
-    "gitbook-plugin-splitter": "^0.0.8",
-    "gitbook-plugin-summary": "^1.1.0",
-    "gitbook-plugin-tbfed-pagefooter": "^0.0.1",
-    "gitbook-plugin-terminal": "^0.3.2",
-    "gitbook-plugin-theme-comscore": "^0.0.3",
-    "gulp": "^4.0.2",
-    "gulp-gh-pages": "^0.5.4",
-    "gulp-load-plugins": "^2.0.6"
+  "directories": {
+    "doc": "docs"
   },
-  "devDependencies": {},
   "scripts": {
+    "build": "docsify-auto-sidebar -d docs",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rsl140/document.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rsl140/document/issues"
-  },
-  "homepage": "https://github.com/rsl140/document#readme"
+  "dependencies": {
+    "docsify-tools": "^1.0.20"
+  }
 }

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" />
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css" />
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js" defer ></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+
+  <style>
+    .markdown-section ul {
+      padding-left: 2.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '',
+      repo: 'https://github.com/rsl140/document/',
+      logo: '/_media/icon.svg',
+      mergeNavbar: true,
+      loadSidebar: true,
+      subMaxLevel: 2,
+      auto2top: true,
+      homepage: '0-Home.md',
+      coverpage: true,
+      coverpage: '_docsify.md',
+      count:{
+        countable: true,
+        position: 'top',
+        margin: '10px',
+        float: 'right',
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese',
+        localization: {
+          words: "",
+          minute: ""
+        },
+        isExpected: true
+      },
+      copyCode: {
+        buttonText : 'Copy',
+        errorText  : 'Error',
+        successText: 'Copied'
+      },
+      footer: {
+        copy: '<span>Copyright © xiaosi (2021 - present)</span>',
+        auth: ' ',
+        pre: '',
+        style: 'text-align: left;',
+        class: 'className',
+      },
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+
+  <script>
+    const gitalk = new Gitalk({
+      clientID: '83d5bcc92db408d31fc9',
+      clientSecret: '45cc5ba59a3f63bbc5de38897a33ed196edaa368',
+      repo: 'document',
+      owner: 'rsl140',
+      admin: ['rsl140'],
+      id: location.pathname,
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script>
+</body>
+</html>
