@@ -7,6 +7,7 @@
   - JS
     - electron
       - [electronBuilder](/2-JS/1-electron/1-electronBuilder.md)
+    - [closure](/2-JS/2-closure.md)
   - other
     - gitbook
       - [gitbook踩坑](/3-other/1-gitbook/1-gitbook踩坑.md)
