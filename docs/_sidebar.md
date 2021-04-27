@@ -8,8 +8,8 @@
     - electron
       - [electronBuilder](/2-JS/1-electron/1-electronBuilder.md)
     - [closure](/2-JS/2-closure.md)
-    - 模块
-      - [模块](/2-JS/3-模块/1-模块.md)
+    - [模块](/2-JS/3-模块.md)
+    - [链表](/2-JS/4-链表.md)
   - other
     - gitbook
       - [gitbook踩坑](/3-other/1-gitbook/1-gitbook踩坑.md)
