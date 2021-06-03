@@ -9,7 +9,10 @@
       - [electronBuilder](/2-JS/1-electron/1-electronBuilder.md)
     - [closure](/2-JS/2-closure.md)
     - [模块](/2-JS/3-模块.md)
-    - [链表](/2-JS/4-链表.md)
   - other
     - gitbook
       - [gitbook踩坑](/3-other/1-gitbook/1-gitbook踩坑.md)
+  - 数据结构
+    - [链表](/4-数据结构/1-链表.md)
+    - [集合&字典](/4-数据结构/2-集合&字典.md)
+    - [树](/4-数据结构/3-树.md)
