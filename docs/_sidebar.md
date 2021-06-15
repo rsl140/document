@@ -7,8 +7,13 @@
   - JS
     - electron
       - [electronBuilder](/2-JS/1-electron/1-electronBuilder.md)
-    - [closure](/2-JS/2-closure.md)
-    - [模块](/2-JS/3-模块.md)
+    - 知识点
+      - [基础类型](/2-JS/2-知识点/0-基础类型.md)
+      - [类型判断](/2-JS/2-知识点/1-类型判断.md)
+      - [执行上下文](/2-JS/2-知识点/2-执行上下文.md)
+      - [变量提升](/2-JS/2-知识点/3-变量提升.md)
+      - [模块](/2-JS/2-知识点/4-模块.md)
+      - [closure](/2-JS/2-知识点/5-closure.md)
   - other
     - gitbook
       - [gitbook踩坑](/3-other/1-gitbook/1-gitbook踩坑.md)
