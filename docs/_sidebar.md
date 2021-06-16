@@ -14,6 +14,7 @@
       - [变量提升](/2-JS/2-知识点/3-变量提升.md)
       - [模块](/2-JS/2-知识点/4-模块.md)
       - [closure](/2-JS/2-知识点/5-closure.md)
+      - [this](/2-JS/2-知识点/6-this.md)
   - other
     - gitbook
       - [gitbook踩坑](/3-other/1-gitbook/1-gitbook踩坑.md)
