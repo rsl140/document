@@ -17,6 +17,7 @@
       - [this](/2-JS/2-知识点/6-this.md)
       - [类型转换](/2-JS/2-知识点/7-类型转换.md)
       - [new](/2-JS/2-知识点/8-new.md)
+      - [js异步](/2-JS/2-知识点/9-js异步.md)
   - other
     - gitbook
       - [gitbook踩坑](/3-other/1-gitbook/1-gitbook踩坑.md)
