@@ -5,19 +5,17 @@
       - [双飞翼布局](/1-CSS/1-CSS布局/2-双飞翼布局.md)
     - [常用样式总结](/1-CSS/2-常用样式总结.md)
   - JS
-    - electron
-      - [electronBuilder](/2-JS/1-electron/1-electronBuilder.md)
     - 知识点
-      - [基础类型](/2-JS/2-知识点/0-基础类型.md)
-      - [类型判断](/2-JS/2-知识点/1-类型判断.md)
-      - [执行上下文](/2-JS/2-知识点/2-执行上下文.md)
-      - [变量提升](/2-JS/2-知识点/3-变量提升.md)
-      - [模块](/2-JS/2-知识点/4-模块.md)
-      - [closure](/2-JS/2-知识点/5-closure.md)
-      - [this](/2-JS/2-知识点/6-this.md)
-      - [类型转换](/2-JS/2-知识点/7-类型转换.md)
-      - [new](/2-JS/2-知识点/8-new.md)
-      - [js异步](/2-JS/2-知识点/9-js异步.md)
+      - [基础类型](/2-JS/1-知识点/0-基础类型.md)
+      - [类型判断](/2-JS/1-知识点/1-类型判断.md)
+      - [执行上下文](/2-JS/1-知识点/2-执行上下文.md)
+      - [变量提升](/2-JS/1-知识点/3-变量提升.md)
+      - [模块](/2-JS/1-知识点/4-模块.md)
+      - [closure](/2-JS/1-知识点/5-closure.md)
+      - [this](/2-JS/1-知识点/6-this.md)
+      - [类型转换](/2-JS/1-知识点/7-类型转换.md)
+      - [new](/2-JS/1-知识点/8-new.md)
+      - [js异步](/2-JS/1-知识点/9-js异步.md)
   - other
     - gitbook
       - [gitbook踩坑](/3-other/1-gitbook/1-gitbook踩坑.md)
@@ -33,4 +31,5 @@
   - 手写JS
     - [code](/5-手写JS/1-code.md)
   - Electron
-    - [工程目录搭建](/6-Electron/1-工程目录搭建.md)
+    - [electronBuilder](/6-Electron/1-electronBuilder.md)
+    - [工程目录搭建](/6-Electron/2-工程目录搭建.md)
