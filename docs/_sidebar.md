@@ -19,6 +19,7 @@
   - other
     - gitbook
       - [gitbook踩坑](/3-other/1-gitbook/1-gitbook踩坑.md)
+      - [vscode](/3-other/1-gitbook/2-vscode.md)
   - 数据结构
     - [链表](/4-数据结构/1-链表.md)
     - [集合&字典](/4-数据结构/2-集合&字典.md)
