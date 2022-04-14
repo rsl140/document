@@ -28,13 +28,13 @@
   // eslint
   "editor.defaultFormatter": "esbenp.prettier-vscode", // 默认格式化程序
   "editor.formatOnSave": true, // 保存格式化
-  "eslint.options": {
-    "extensions": [".js", ".vue"]
-  },
   "eslint.enable": true,
   "editor.codeActionsOnSave": {
     // For ESLint and StyleLint
     "source.fixAll": true
+  },
+  "eslint.options": {
+    "extensions": [".js", ".vue"]
   },
   "eslint.validate": [
     "javascript",
@@ -110,7 +110,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
   "[vue]": {
     "editor.defaultFormatter": "octref.vetur"
