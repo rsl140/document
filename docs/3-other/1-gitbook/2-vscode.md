@@ -27,7 +27,7 @@
   },
   // eslint
   "editor.defaultFormatter": "esbenp.prettier-vscode", // 默认格式化程序
-  "editor.formatOnSave": true, // 保存格式化
+  "editor.formatOnSave": false, // 保存格式化
   "eslint.enable": true,
   "editor.codeActionsOnSave": {
     // For ESLint and StyleLint
@@ -44,6 +44,7 @@
     "typescript",
     "typescriptreact"
   ],
+
   "explorer.confirmDragAndDrop": false,
   "editor.detectIndentation": false,
   "vetur.format.defaultFormatter.js": "vscode-typescript",
@@ -232,13 +233,8 @@
         'error',
         {
           html: {
-            void: 'never',
-            normal: 'always',
-            component: 'always'
-          },
-          Vue: {
-            void: 'never',
-            normal: 'always',
+            void: 'always',
+            normal: 'never',
             component: 'always'
           },
           svg: 'always',
